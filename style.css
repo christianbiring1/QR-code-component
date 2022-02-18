@@ -53,12 +53,5 @@ img{
         border-radius: 15px;
     }
 }
-@media only screen and (min-width: 1440px){
-    body{
-        background-image: url(images/favicon-32x32.png);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
+
     
