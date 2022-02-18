@@ -3,33 +3,28 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-align: center;
     font-family: outfit;
 }
 #wrapper{
-    margin-top: 50px;
+    margin: 7rem auto;
+    padding: 1rem;
     background: hsl(0, 0%, 100%);
-    width: 90%;
+    width: 300px;
     border-radius: 10px;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    
 
 }
-img{
-    margin: 20px 0px 0px 0px; 
+img{ 
     border-radius: 10px;
-    width: 90%;
+    width: 300px;
 }
 .text-content{
     margin: 20px;
     text-align:center;
 }
 .title{
-    
-    font-weight: 700;
+    font-size: 22px;
     padding: 0px; 
     opacity: .85;
 }
@@ -40,7 +35,7 @@ img{
     opacity: .6;
 }
 
-@media only screen and (min-width: 1024px){
+/* @media only screen and (min-width: 1024px){
      #wrapper{
         margin-top: 10px;
         border-radius: 20px;
@@ -52,6 +47,6 @@ img{
     img{
         border-radius: 15px;
     }
-}
+} */
 
     
